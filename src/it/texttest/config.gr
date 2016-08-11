@@ -1,0 +1,17 @@
+# Full path to the System Under Test (or Java Main Class name)
+executable:com.gildedrose.TexttestFixture
+
+# Naming scheme to use for files for stdin,stdout and stderr
+filename_convention_scheme:standard
+
+# Single program to use as interpreter for the SUT
+interpreter:java
+
+# Expanded name to use for application
+full_name:Gilded Rose
+
+default_checkout:gilded-rose
+
+copy_test_path:items.csv
+
+extra_search_directory:${TEXTTEST_CHECKOUT}/target/texttest_extra_config/
