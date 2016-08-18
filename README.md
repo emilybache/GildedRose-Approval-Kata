@@ -13,3 +13,13 @@ You will need to point out the location of your clone of the code, so that textt
 
 Where $SOURCE_ROOT is a the path on your machine to this repo.
 
+You will also need to run 'mvn install' in this project:
+
+    $ cd java
+    $ mvn install
+
+That will both install and run the TextTests on the command line. It is more convenient
+to develop the tests using the texttest GUI, which you can start with the following command:
+
+    $ texttest -a gr
+
