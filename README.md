@@ -9,7 +9,7 @@ Running the texttests
 You will need to point out the location of your clone of the code, so that texttest can find it. In your personal texttest config file $HOME/.texttest/config (create that file if it doesn't exist), include this:
 
     [checkout_location]
-    gilded-rose:$SOURCE_ROOT/GildedRose-Approval-Kata/java
+    gilded-rose:$SOURCE_ROOT/GildedRose-Approval-Kata
 
 Where $SOURCE_ROOT is a the path on your machine to this repo.
 
