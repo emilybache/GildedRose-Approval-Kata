@@ -10,7 +10,7 @@ if __name__ == "__main__":
     with open("items.csv") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            items.append(Item(row['Name'], row['sellIn'], row['quality']))
+            items.append(Item(row['Name'], int(row['sellIn']), int(row['quality'])))
 
     days = 1
     import sys
