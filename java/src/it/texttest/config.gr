@@ -14,5 +14,6 @@ default_checkout:gilded-rose
 
 copy_test_path:items.csv
 
-extra_search_directory:${TEXTTEST_CHECKOUT}/java/target/texttest_extra_config/
+extra_search_directory:${TEXTTEST_CHECKOUT}/target/texttest_extra_config/
 
+config_module:default
